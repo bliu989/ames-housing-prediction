@@ -17,7 +17,7 @@ names = ['Lot area (sq ft)', 'Overall quality', 'Overall condition',
         'Fireplaces', 'Garage year built', 'Garage cars',
         'Garage area (sq ft)', 'Wood deck sq ft', 'Open porch sq ft',
         'Month sold', 'Year sold']
-mins = [1000, 1, 1, 1879, 1950, 0, 0, 400, 0, 400, 0, 0, 0, 0, 0, 0, 0,
+mins = [1000, 1, 1, 1879, 1950, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         1895, 0, 0, 0, 0, 1, 2006]
 maxs = [100000, 10, 10, 2010, 2010, 1600, 5700, 2400, 5100, 2100, 5700, 2,
         4, 2, 6, 15, 4, 2010, 4, 1500, 1500, 600, 12, 2010]
