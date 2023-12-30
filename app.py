@@ -3,7 +3,10 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('housing_gb.pkl')
+@st.cache_resource
+def get_model():
+    return joblib.load('housing_gb.pkl')
+model = get_model()
 
 st.title('Ames house price prediction')
 
